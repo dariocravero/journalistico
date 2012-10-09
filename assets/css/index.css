@@ -1,0 +1,127 @@
+@import "h5bp.css";
+
+body {
+  font-family: 'Quattrocento', serif;
+}
+
+a {
+  color: darkgrey;
+}
+a:visited {
+  color: darkgrey;
+}
+a:hover {
+  color: black;
+}
+
+header {
+  padding: 10px 20px 20px 20px;
+  border-top: 5px solid black;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+
+header .header-wrapper {
+  width: 220px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+}
+header .alpha {
+  margin-left: 20px;
+  font-size: 0.6em;
+}
+
+.resources {
+  margin-top: -5px;
+  margin-bottom: 3em;
+  position: relative;
+}
+.resources .wrapper {
+  position: absolute;
+  right: 80px;
+  top: 0;
+}
+.resources .resource {
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+  font-size: 0.4em;
+  margin-left: -8px;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  line-height: 2em;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  right: 20px;
+  border-top: 1px solid black;
+  padding-top: 15px 0 20px 0;
+}
+footer a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#main .new {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+}
+#main .posts {
+  list-style: none;
+  padding: 0;
+  margin: 75px 20px 0px 20px;
+}
+#main .posts .post {
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+#main .posts .post .destroy {
+  font-size: 0.7em;
+
+}
+#main .posts .post .title, #post .title {
+  font-size: 1.3em;
+  line-height: 2em;
+}
+#main .posts .post .content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+#post {
+  padding: 50px 50px;
+}
+
+#post .title, #post .content {
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+#post .title:hover, #post .content:hover {
+  border-left: 1px solid black;
+}
+#post .title:focus, #post .content:focus {
+  outline: 0;
+  border-left: 1px solid black;
+}
+#post .title:focus {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+#post .content:focus {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
